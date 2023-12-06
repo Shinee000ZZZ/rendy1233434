@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+    -->
+    <title>Rumah Masak padang</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food">
+    <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+    <!-- 
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+    <!-- 
+    - custom css link
+    -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- 
+    - preload images
+    -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+</head>
+<body>
+    <!-- 
+    - #PRELOADER
+    -->
+
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">Rumah Makan Padang</p>
+    </div>
+
+     <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Rumah Makan Padang, Cikabutan timur, Pataruman,Banjar Patroman
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Buka Jam 08.00 sampai 21.00</span>
+      </div>
+
+      <a href="tel:085951550033" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">085951550033</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:prodenzer@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Prodenzer@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+<!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="Index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="Contact.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Rumah Makan Padang, Cikabutan timur, <br>
+            Pataruman,Banjar Patroman
+          </address>
+
+          <p class="body-4 navbar-text">Buka Jam 08.00 sampai 21.00m</p>
+
+          <a href="mailto:prodenzer@gmail.com" class="body-4 sidebar-link">Prodenzer@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Bisa Pesan</p>
+
+          <a href="tel:085951550033" class="body-1 contact-number hover-underline">
+            085951550033
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Rumah Nasi Padang</p>
+
+          <h2 class="headline-1 section-title text-center">Menu</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu1.jpg" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ikan gule</a>
+                    </h3>
+
+                    
+
+                    <span class="span title-2">20.000</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                  ikan,santan,batang serai,lembar daun jeruk,lembar daun salam,lengkuas,,Garam dan gula
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu2.jpg" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Dengdeng</a>
+                    </h3>
+
+                    <span class="span title-2">18.000</span>
+                  </div>
+
+                  <p class="card-text label-1">spices daging sapi,lembar daun jeruk,batang serai,lembar daun salam,lengkuas,cabe merah besar,bawang merah,bawang putih,makan ketumbar bubuk,gula merah,Garam,gula dan Minyak goreng
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu3.jpg" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ayam Pop</a>
+                    </h3>
+
+                    <span class="span title-2">15.000</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                   ayam,minyak gorengserai,memarkan,daun salam,lengkuas,bawang merah,bawang putih,cabe merah besar,ketumbar bubuk,garam,merica bubuk,kunyit bubuk,air asam jawa,air kelapa,Minyak untuk menggoreng.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu4.jpg" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ikan Lele</a>
+                    </h3>
+
+                    
+                    <span class="span title-2">15.000</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                 ikan lele,makan tepung maizena,merica bubuk,garam,Minyak untuk menggoreng.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu5.jpg" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ikan Kembung</a>
+                    </h3>
+
+                    <span class="span title-2">13.000</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                   ikan kembung,kecap manis,air jeruk nipis,garam,merica bubuk,bawang putih,Minyak untuk menggoreng
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu6.jpg" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Telor Dadar</a>
+                    </h3>
+
+                    <span class="span title-2">8.000</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                  telur,daun bawang,serai,daun salam,daun jeruk,garam,merica bubuk,Minyak untuk menggoreng
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Buka<span class="span"Jam 08.00></span> sampai <span class="span">21.00</span>
+          </p>
+
+          <a href="index.html" class="btn btn-primary">
+            <span class="text text-1">Kembali</span>
+
+            <span class="text text-2" aria-hidden="true">Kembali</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+     <!-- 
+    - custom js link
+  -->
+  <script src="Script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
